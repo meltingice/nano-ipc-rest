@@ -5,7 +5,7 @@ A quick and simple REST server for the Nano cryptocurrency RPC backed by the exp
 ## Usage
 
 ```
-Usage: index.js [options]
+Usage: nano-ipc-rest [options]
 
 Options:
   -V, --version            output the version number

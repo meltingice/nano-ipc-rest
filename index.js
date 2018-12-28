@@ -9,6 +9,7 @@ const morgan = require('morgan');
 const cors = require('cors');
 
 program
+  .name('nano-ipc-rest')
   .version(require('./package.json').version)
   .option('-i, --ipc [path]', 'Path to Nano IPC socket', '/tmp/nano')
   .option('-p, --port [port]', 'Port to bind the webserver to', 3001)
