@@ -1,6 +1,6 @@
 {
   "name": "nano-ipc-rest",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple IPC + REST RPC server for the Nano cryptocurrency node.",
   "bin": "./index.js",
   "main": "index.js",
