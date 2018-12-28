@@ -1,0 +1,39 @@
+{
+  "name": "nano-ipc-rest",
+  "version": "1.0.0",
+  "description": "A simple IPC + REST RPC server for the Nano cryptocurrency node.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meltingice/nano-ipc-rest.git"
+  },
+  "author": "Ryan LeFevre <meltingice8917@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meltingice/nano-ipc-rest/issues"
+  },
+  "homepage": "https://github.com/meltingice/nano-ipc-rest#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "commander": "^2.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nano-ipc": "^1.1.0"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "parser": "babylon",
+    "printWidth": 120,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none",
+    "useTabs": false
+  }
+}
